@@ -1,0 +1,42 @@
+
+a {
+  font-weight: 600;
+  font-family: "Inter", sans-serif !important;
+}
+a:hover {
+  color: #c0d96f;
+}
+.navbar-brand {
+  font-weight: 600;
+  font-size: 17px;
+  font-family: "Inter", sans-serif !important;
+}
+.navbar {
+  height: 70px;
+}
+table {
+    border-collapse: collapse;
+    max-width:auto;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap; /* Prevent text from wrapping within the cell */
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  th {
+    background-color: #4caf50;
+    color: white;
+  }
